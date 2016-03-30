@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B024CF4D1CA508B20052DB97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B024CF4C1CA508B20052DB97 /* main.m */; };
+		B024CF501CA508B20052DB97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B024CF4F1CA508B20052DB97 /* AppDelegate.m */; };
+		B024CF531CA508B20052DB97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B024CF521CA508B20052DB97 /* ViewController.m */; };
+		B024CF561CA508B20052DB97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B024CF541CA508B20052DB97 /* Main.storyboard */; };
+		B024CF581CA508B20052DB97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B024CF571CA508B20052DB97 /* Assets.xcassets */; };
+		B024CF5B1CA508B20052DB97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B024CF591CA508B20052DB97 /* LaunchScreen.storyboard */; };
+		B024CF641CA508D50052DB97 /* SNCalendarDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = B024CF631CA508D50052DB97 /* SNCalendarDayView.m */; };
+		B024CF671CA50DA90052DB97 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = B024CF661CA50DA90052DB97 /* Tools.m */; };
+		B024CF6A1CA510DF0052DB97 /* SNCalendarWeekDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = B024CF691CA510DF0052DB97 /* SNCalendarWeekDayView.m */; };
+		B024CF6D1CA5132B0052DB97 /* SNCalendarPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B024CF6C1CA5132B0052DB97 /* SNCalendarPageView.m */; };
+		B024CF701CA515070052DB97 /* SNCalendarMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = B024CF6F1CA515070052DB97 /* SNCalendarMenuView.m */; };
+		B024CF731CA517FF0052DB97 /* SNCalendarHorizontalModeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B024CF721CA517FF0052DB97 /* SNCalendarHorizontalModeView.m */; };
+		B024CF761CA52BF20052DB97 /* SNDateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B024CF751CA52BF20052DB97 /* SNDateHelper.m */; };
+		B0336D2B1CA8DE03008953DD /* SNDayViewInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B0336D2A1CA8DE03008953DD /* SNDayViewInfo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B024CF481CA508B20052DB97 /* SNCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B024CF4C1CA508B20052DB97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B024CF4E1CA508B20052DB97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B024CF4F1CA508B20052DB97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B024CF511CA508B20052DB97 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B024CF521CA508B20052DB97 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B024CF551CA508B20052DB97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B024CF571CA508B20052DB97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B024CF5A1CA508B20052DB97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B024CF5C1CA508B20052DB97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B024CF621CA508D50052DB97 /* SNCalendarDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNCalendarDayView.h; sourceTree = "<group>"; };
+		B024CF631CA508D50052DB97 /* SNCalendarDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNCalendarDayView.m; sourceTree = "<group>"; };
+		B024CF651CA50DA90052DB97 /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		B024CF661CA50DA90052DB97 /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		B024CF681CA510DF0052DB97 /* SNCalendarWeekDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNCalendarWeekDayView.h; sourceTree = "<group>"; };
+		B024CF691CA510DF0052DB97 /* SNCalendarWeekDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNCalendarWeekDayView.m; sourceTree = "<group>"; };
+		B024CF6B1CA5132B0052DB97 /* SNCalendarPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNCalendarPageView.h; sourceTree = "<group>"; };
+		B024CF6C1CA5132B0052DB97 /* SNCalendarPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNCalendarPageView.m; sourceTree = "<group>"; };
+		B024CF6E1CA515070052DB97 /* SNCalendarMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNCalendarMenuView.h; sourceTree = "<group>"; };
+		B024CF6F1CA515070052DB97 /* SNCalendarMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNCalendarMenuView.m; sourceTree = "<group>"; };
+		B024CF711CA517FF0052DB97 /* SNCalendarHorizontalModeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNCalendarHorizontalModeView.h; sourceTree = "<group>"; };
+		B024CF721CA517FF0052DB97 /* SNCalendarHorizontalModeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNCalendarHorizontalModeView.m; sourceTree = "<group>"; };
+		B024CF741CA52BF20052DB97 /* SNDateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNDateHelper.h; sourceTree = "<group>"; };
+		B024CF751CA52BF20052DB97 /* SNDateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNDateHelper.m; sourceTree = "<group>"; };
+		B0336D291CA8DE03008953DD /* SNDayViewInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNDayViewInfo.h; sourceTree = "<group>"; };
+		B0336D2A1CA8DE03008953DD /* SNDayViewInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNDayViewInfo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B024CF451CA508B20052DB97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B024CF3F1CA508B20052DB97 = {
+			isa = PBXGroup;
+			children = (
+				B024CF4A1CA508B20052DB97 /* SNCalendar */,
+				B024CF491CA508B20052DB97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B024CF491CA508B20052DB97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B024CF481CA508B20052DB97 /* SNCalendar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B024CF4A1CA508B20052DB97 /* SNCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				B024CF4E1CA508B20052DB97 /* AppDelegate.h */,
+				B024CF4F1CA508B20052DB97 /* AppDelegate.m */,
+				B024CF511CA508B20052DB97 /* ViewController.h */,
+				B024CF521CA508B20052DB97 /* ViewController.m */,
+				B024CF541CA508B20052DB97 /* Main.storyboard */,
+				B024CF571CA508B20052DB97 /* Assets.xcassets */,
+				B024CF591CA508B20052DB97 /* LaunchScreen.storyboard */,
+				B024CF5C1CA508B20052DB97 /* Info.plist */,
+				B024CF4B1CA508B20052DB97 /* Supporting Files */,
+				B024CF621CA508D50052DB97 /* SNCalendarDayView.h */,
+				B024CF631CA508D50052DB97 /* SNCalendarDayView.m */,
+				B024CF681CA510DF0052DB97 /* SNCalendarWeekDayView.h */,
+				B024CF691CA510DF0052DB97 /* SNCalendarWeekDayView.m */,
+				B024CF6B1CA5132B0052DB97 /* SNCalendarPageView.h */,
+				B024CF6C1CA5132B0052DB97 /* SNCalendarPageView.m */,
+				B024CF6E1CA515070052DB97 /* SNCalendarMenuView.h */,
+				B024CF6F1CA515070052DB97 /* SNCalendarMenuView.m */,
+				B024CF711CA517FF0052DB97 /* SNCalendarHorizontalModeView.h */,
+				B024CF721CA517FF0052DB97 /* SNCalendarHorizontalModeView.m */,
+				B024CF741CA52BF20052DB97 /* SNDateHelper.h */,
+				B024CF751CA52BF20052DB97 /* SNDateHelper.m */,
+				B0336D291CA8DE03008953DD /* SNDayViewInfo.h */,
+				B0336D2A1CA8DE03008953DD /* SNDayViewInfo.m */,
+				B024CF651CA50DA90052DB97 /* Tools.h */,
+				B024CF661CA50DA90052DB97 /* Tools.m */,
+			);
+			path = SNCalendar;
+			sourceTree = "<group>";
+		};
+		B024CF4B1CA508B20052DB97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B024CF4C1CA508B20052DB97 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B024CF471CA508B20052DB97 /* SNCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B024CF5F1CA508B20052DB97 /* Build configuration list for PBXNativeTarget "SNCalendar" */;
+			buildPhases = (
+				B024CF441CA508B20052DB97 /* Sources */,
+				B024CF451CA508B20052DB97 /* Frameworks */,
+				B024CF461CA508B20052DB97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SNCalendar;
+			productName = SNCalendar;
+			productReference = B024CF481CA508B20052DB97 /* SNCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B024CF401CA508B20052DB97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = LMC;
+				TargetAttributes = {
+					B024CF471CA508B20052DB97 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9E8ET86RJ8;
+					};
+				};
+			};
+			buildConfigurationList = B024CF431CA508B20052DB97 /* Build configuration list for PBXProject "SNCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B024CF3F1CA508B20052DB97;
+			productRefGroup = B024CF491CA508B20052DB97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B024CF471CA508B20052DB97 /* SNCalendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B024CF461CA508B20052DB97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B024CF5B1CA508B20052DB97 /* LaunchScreen.storyboard in Resources */,
+				B024CF581CA508B20052DB97 /* Assets.xcassets in Resources */,
+				B024CF561CA508B20052DB97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B024CF441CA508B20052DB97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B024CF761CA52BF20052DB97 /* SNDateHelper.m in Sources */,
+				B024CF731CA517FF0052DB97 /* SNCalendarHorizontalModeView.m in Sources */,
+				B024CF531CA508B20052DB97 /* ViewController.m in Sources */,
+				B024CF671CA50DA90052DB97 /* Tools.m in Sources */,
+				B024CF701CA515070052DB97 /* SNCalendarMenuView.m in Sources */,
+				B0336D2B1CA8DE03008953DD /* SNDayViewInfo.m in Sources */,
+				B024CF501CA508B20052DB97 /* AppDelegate.m in Sources */,
+				B024CF641CA508D50052DB97 /* SNCalendarDayView.m in Sources */,
+				B024CF6D1CA5132B0052DB97 /* SNCalendarPageView.m in Sources */,
+				B024CF6A1CA510DF0052DB97 /* SNCalendarWeekDayView.m in Sources */,
+				B024CF4D1CA508B20052DB97 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B024CF541CA508B20052DB97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B024CF551CA508B20052DB97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B024CF591CA508B20052DB97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B024CF5A1CA508B20052DB97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B024CF5D1CA508B20052DB97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "7f1332ff-0d58-4d6b-b443-ba7be5fec0b0";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B024CF5E1CA508B20052DB97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "7f1332ff-0d58-4d6b-b443-ba7be5fec0b0";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B024CF601CA508B20052DB97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SNCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.befc.SNCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		B024CF611CA508B20052DB97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SNCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.befc.SNCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B024CF431CA508B20052DB97 /* Build configuration list for PBXProject "SNCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B024CF5D1CA508B20052DB97 /* Debug */,
+				B024CF5E1CA508B20052DB97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B024CF5F1CA508B20052DB97 /* Build configuration list for PBXNativeTarget "SNCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B024CF601CA508B20052DB97 /* Debug */,
+				B024CF611CA508B20052DB97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B024CF401CA508B20052DB97 /* Project object */;
+}
